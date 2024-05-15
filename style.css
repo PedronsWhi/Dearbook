@@ -1,0 +1,56 @@
+.navbar {
+    background-color: #343a40; /* Cor de fundo cinza escuro */
+}
+.navbar-dark .navbar-nav .nav-link {
+    color: #ffffff; /* Cor do texto branco */
+    font-size: 20px;
+}
+.navbar-brand{
+    font-size: 30px;
+}
+
+header{
+    text-align: center;
+    margin-top: 50px;
+}
+body{
+    background-color: rgb(168, 237, 233);
+}
+header h1{
+    color: #343a40;
+    font-size: 50px;
+}
+header hr{
+    border-top: 1px solid #06000099;
+    width: 30%;
+    margin: 10px auto;
+}
+.texto-com-retangulo {
+    padding: 50px; /* Espaçamento interno de 20px */
+    max-width: 800px; /* Largura máxima do retângulo */
+    margin: 20px auto; /* Centralizar horizontalmente */
+    text-align: center; /* Centralizar o texto */
+    border-radius: 20px
+}
+.container{
+    margin-top: 30px;
+}
+.livro {
+    display: inline-block;
+    margin: 20px;
+    text-align: center;
+    width: 45%; /* Adicionando uma largura para cada livro */
+}
+.livro img {
+    width: 200px;
+    height: auto;
+    display: block;
+    margin: 0 auto 10px;
+}
+.livro h3 {
+    font-size: 18px;
+    margin: 0;
+}
+.sobre{
+    font-size: 20px;
+}
