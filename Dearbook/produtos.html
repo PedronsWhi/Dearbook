@@ -11,7 +11,7 @@
 <body>
 
 <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
-  <a class="navbar-brand" href="#">Biblioteca</a>
+  <a class="navbar-brand" href="#">Dearbook</a>
   <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
     <span class="navbar-toggler-icon"></span>
   </button>
@@ -26,6 +26,9 @@
       <li class="nav-item">
         <a class="nav-link" href="livros.html">Livros</a>
       </li>
+      <li class="nav-item active">
+        <a class="nav-link" href="produtos.html">Produtos</a>
+      </li>
       <li class="nav-item">
         <a class="nav-link" href="contatos.html">Contato</a>
       </li>
@@ -34,9 +37,6 @@
       </li>
       <li class="nav-item">
         <a class="nav-link" href="login.html">Login</a>
-      </li>
-      <li class="nav-item active">
-        <a class="nav-link" href="produtos.html">Produtos</a>
       </li>
     </ul>
   </div>
@@ -56,6 +56,10 @@
         <div class="form-group">
             <label for="descricaoProduto">Descrição</label>
             <textarea class="form-control" id="descricaoProduto" rows="3" placeholder="Digite a descrição do produto" required></textarea>
+        </div>
+        <div class="form-group">
+          <label for="pdfProduto">PDF do Livro</label>
+          <input type="file" class="form-control" id="pdfProduto" placeholder="Insira aqui o pdf do seu livro" required>
         </div>
         <button type="submit" class="btn btn-primary">Salvar</button>
     </form>

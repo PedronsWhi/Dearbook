@@ -54,3 +54,8 @@ header hr{
 .sobre{
     font-size: 20px;
 }
+
+.contato{
+    font-size: 20px;
+    text-align: justify;
+}
